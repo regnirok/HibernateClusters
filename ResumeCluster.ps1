@@ -1,9 +1,11 @@
 # Client credentials
-#client_id from the user from the clusters portal
-#User created in clusters portal as Organization Administrator
-$clientId = "c6f42bf6-3496-4c7a-9e90-7302240ee57f.img.frame.nutanix.com"
-$clientSecret = "5f66f8a102c9961f1acbbf521e5447ab14b91be6"
-$cluster_id ="0005BCBD-4522-EE20-754A-90D23F4DFC83" 
+# Create an API User in MCM and provide it role Organization Administrator
+# Obtain your ClientID and ClientSecretfrom your API User in MCM
+# Obtain your Cluster_ID from your Cluster stats in MCM
+
+$clientId = "**************************************.img.frame.nutanix.com"
+$clientSecret = "**************************************"
+$cluster_id ="**************************************" 
 
 
 $timestamp = [int](Get-Date -UFormat %s)
