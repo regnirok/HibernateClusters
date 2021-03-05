@@ -60,4 +60,3 @@ $body = ""
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls -bor [Net.SecurityProtocolType]::Tls11 -bor [Net.SecurityProtocolType]::Tls12
 Invoke-WebRequest -Method Post -Uri $uri -Headers $Headers -ContentType "application/json" -Body $body
-Invoke-WebRequest -Method Post -Uri $uri -Headers $Headers -ContentType "application/json" -Body $body
